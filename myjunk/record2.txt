@@ -10,6 +10,10 @@ s.str.lower
 grouped = df.groupby('Team')
 print grouped['Points'].agg([np.sum, np.mean, np.std])
 
+
+
+
+
 dispose the db connection as soon as possible.
 build tools;（工具以一个J开头）
 dispensable critical parts decouples [模块和逻辑分离，未付 重算机制与最新计算].
@@ -17,24 +21,13 @@ communication with myself to introduce the projects and the developing process.
 
 indirection link : test for the python files.
 live template : code snippet
-Home directory by the command line . [bash alias]
 live documents: svn2wiki, xml comments and helper files.
 class diagram(UMl files) : when you build the project , you can get the class view automatically.
 schemaspy: get the db tables relationships.
-CruiseControl: build server 
+CruiseControl: build server [can be used for .Net?]
 
 buildix: general infrastructure setup.
 curl: automate your interaction with web.
 selenium ide: firefox plugin.
 powershll: pipe and where condition usage.
 Astah和思维导图：制作UML时序图
-
-
-adddddd
-niyijingshi yige bendan 
-yige qibade cunzai 
-
-beijing huangyingni 
-bendang 
-dddd
-nihaode ddddddddd

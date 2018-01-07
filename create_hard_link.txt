@@ -1,5 +1,9 @@
 mklink /H new-record.txt record2.txt
-[解释： /H 硬链接 ， new-record.txt:新创建的文件， record2.txt:源文件]
+[解释： /H 硬链接(同一个硬盘下的文件Note) ， new-record.txt:新创建的文件， record2.txt:源文件]
+
+mklink mklink /J myjunk C:\Users\QingqingXiaocao\Desktop\record
+[make junction for the DIRECTORY,NOT files.]
+
 help mklink
 
 GET the Home directory:
