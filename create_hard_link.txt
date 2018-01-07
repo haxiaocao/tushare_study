@@ -1,0 +1,3 @@
+mklink /H new-record.txt record2.txt
+[解释： /H 硬链接 ， new-record.txt:新创建的文件， record2.txt:源文件]
+help mklink
